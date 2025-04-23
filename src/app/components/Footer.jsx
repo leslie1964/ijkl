@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-6 px-4 border-t border-gray-200">
+    <footer className="bg-[#E8F0FE] py-6 px-4 border-t border-gray-200">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-start mb-8">
           {/* Left Section - Address */}
