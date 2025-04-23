@@ -35,7 +35,7 @@ export default function Home() {
           </p>
 
           <div className="flex flex-col space-y-4">
-            <Link href="/login" className="bg-[#840029]  px-6 py-3 rounded-md text-center text-white font-medium hover:bg-[#840029] transition-colors">
+            <Link href="/Authentication" className="bg-[#840029]  px-6 py-3 rounded-md text-center text-white font-medium hover:bg-[#840029] transition-colors">
               Login to Your Account
             </Link>
             
