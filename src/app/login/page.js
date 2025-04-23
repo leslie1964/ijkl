@@ -230,7 +230,7 @@ export default function Login() {
                     onChange={handleChange}
                     placeholder="Password"
                     required
-                    className="w-full px-4 py-3 bg-[#F2F2F2]rounded-lg focus:outline-none focus:ring-1 focus:ring-red-800"
+                    className="w-full px-4 py-3 bg-[#F2F2F2]  rounded-lg focus:outline-none focus:ring-1 focus:ring-red-800"
                   />
                   <button
                     type="button"
