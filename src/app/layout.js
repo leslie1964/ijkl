@@ -26,8 +26,8 @@ export default function RootLayout({ children }) {
         <link rel="shortcut icon" href="/assets/favicon.png" />
         
         {/* Add cache-busting query param to force reload */}
-        <meta httpEquiv="Pragma" content="no-cache" />
-        <meta httpEquiv="Expires" content="0" />
+        {/* <meta httpEquiv="Pragma" content="no-cache" />
+        <meta httpEquiv="Expires" content="0" /> */}
       </head>
       <body className={inter.className}>
         {children}
