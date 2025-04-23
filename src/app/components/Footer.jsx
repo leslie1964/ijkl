@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="flex justify-end mb-4">
               <div className="flex flex-col items-center">
                 <p className="text-lg text-gray-600 mb-1">Member</p>
-                <p className="font-bold text-4xl">FDIC</p>
+                <p className="font-bold text-black text-4xl">FDIC</p>
               </div>
             </div>
             <div className="flex justify-end gap-2">
