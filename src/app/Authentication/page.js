@@ -24,6 +24,12 @@ export default function Login() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+
+  useEffect(()=>{
+
+  },[])
+ 
+
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
@@ -85,7 +91,7 @@ export default function Login() {
           <div className="w-full max-w-md bg-white rounded-lg border border-[#E6E6E6] overflow-hidden h-[60vh] flex flex-col justify-center gap-4 ">
             <div className="relative">
               {/* Menu Icon */}
-              <div className="absolute -top-6 right-4">
+              <div className="absolute sm:top-6 md:-top-6 right-4">
                 <button
                   onClick={toggleMenu}
                   className="bg-[#DBC4CB] p-1 rounded-full"
