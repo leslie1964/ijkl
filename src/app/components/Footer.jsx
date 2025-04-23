@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 py-6 px-4 border-t border-gray-200">
+    <footer className="bg-white py-6 px-4 border-t border-gray-200">
       <div className="container mx-auto max-w-6xl">
-        <div className="flex flex-col md:flex-row justify-between items-start mb-6">
+        <div className="flex flex-col md:flex-row justify-between items-start mb-8">
           {/* Left Section - Address */}
           <div className="mb-4 md:mb-0 text-gray-700 text-sm">
             <p>115 S.Grant St</p>
@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           
           {/* Middle Section - Navigation */}
-          <div className="mb-4 md:mb-0 flex flex-col items-start">
+          <div className="mb-4 md:mb-0 flex flex-col items-center">
             <a href="https://colony.bank/" className="mb-2 text-gray-700 hover:text-gray-900">Home</a>
             <a href="https://digitalbanking.colony.bank/mobile" className="mb-2 text-gray-700 hover:text-gray-900">Mobile</a>
             <a href="https://digitalbanking.colony.bank" className="mb-2 text-gray-700 hover:text-gray-900">Browser Support</a>
@@ -24,25 +24,23 @@ const Footer = () => {
           </div>
           
           {/* Right Section - NMLS and FDIC info */}
-          <div className="mb-4 md:mb-0">
-            <div className="text-right text-sm text-gray-700 mb-3">
-              <p>NMLS number: 408873</p>
-              <p>Routing number: 061202672</p>
+          <div className="text-right">
+            <div className="text-sm text-gray-700 mb-3">
+              <p>NMLS number: <span className='font-bold'>408873</span></p>
+              <p>Routing number: <span className='font-bold'>061202672</span></p>
             </div>
             <div className="flex justify-end mb-4">
               <div className="flex flex-col items-center">
-                <p className="text-xs text-gray-600 mb-1">Member</p>
-                <p className="font-bold text-xl">FDIC</p>
+                <p className="text-lg text-gray-600 mb-1">Member</p>
+                <p className="font-bold text-4xl">FDIC</p>
               </div>
             </div>
             <div className="flex justify-end gap-2">
               <a href="#" className="block">
-                <Image src={"/public/assets/google-play.png"} width={280}
-              height={80} alt="Get it on Google Play" className="h-10" />
+                <Image src={"/assets/google-play.png"} width={180} height={50} alt="Get it on Google Play" className="h-14" />
               </a>
               <a href="#" className="block">
-                <Image src={"/public/assets/app-store.png"} width={280}
-              height={80} alt="Download on the App Store" className="h-10" />
+                <Image src={"/assets/app-store.png"} width={180} height={40} alt="Download on the App Store" className="h-14" />
               </a>
             </div>
           </div>
@@ -71,8 +69,6 @@ const Footer = () => {
         <div className="text-center text-sm text-gray-600">
           <p>Copyright © 2025 All rights reserved.</p>
         </div>
-        
-        
       </div>
     </footer>
   );
